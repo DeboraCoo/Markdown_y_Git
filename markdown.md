@@ -19,3 +19,14 @@ Una de las maneras que git nos permite mantener mejor control en lo que deseamos
 
 Para poder confirmar el snapshot y enviarlo al servidor tenemos que hacerlo por medio de un push hacia el origen, ya que de lo contrario todos los cambios y snapshots existiran unicamente en nuestro repositorio local.
 
+### Entre los comandos basicos que podemos utilzar estan:
+
+|Comando |Accion|
+|:-----|:----|
+|**help** |muestra la ayuda del comando de git a utilizar |
+|**init** |crea un nuevo repositorio de git, guradando la informacion en el folder .git |
+|**add** | agrega los archivos al area de staging | 
+|**commit** | crea un nuevo commit |
+|**log** | muestra el historial de cambios en forma plana | 
+|**diff** | muestra los cambios realizados, relativos al area de staging |
+|**checkout** | actualiza HEAD y el branch actual |
