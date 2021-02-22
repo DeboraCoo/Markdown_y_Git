@@ -109,3 +109,5 @@ Y asi lo repetimos por cada cambio que queremos enviar hasta completar los commi
 	To https://github.com/DeboraCoo/Markdown_y_Git.git
 	   2f0e30f..7c69f0f  main -> main
 ~~~
+
+![alt text](https://imgs.xkcd.com/comics/git.png "git") 
