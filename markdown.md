@@ -38,3 +38,13 @@ Al momento de iniciar un proyecto es necesario definir las reglas a utilizar par
 Aunque git nos permite guardar los archivos que necesitemos, hay que tener en cuenta ciertas restricciones, como por ejemplo aquellos archivos o tipos de archivos que *no* queremos rastrear u omitir al momento de mandar nuestros cambios. Estos archivos por lo regular van a ser aquellos que contienen informacion confidencial o de alta sensibilidad como passwords y conexiones a bases de datos u otros servidores, por lo que es de considerarlo al momento de clonar nuestro repositorio y si creemos que algo hizo falta siempre es bueno revisar el archivo .gitignore y confirmar que archivos van a ser ignorados.
 
 Dependiendo del tipo de framework que estemos trabajando, hay recursos que no necesitan ser copiados ni rastreados, pero que al mismo tiempo nos ocuparian espacio en el repositorio lo que lo haria demasiado tardado en clonar, asi que es de tenerlo en cuenta cuando queremos compartir nuestros archivos o proyectos con cualquier otra persona/compañero de trabajo e intentar dejarlo documentado en algun lado.
+
+## Comentarios
+
+Aunque en los ejemplos nos estaremos enfocando en el uso de github como servidor de repositorios, hay otras plataformas que tambien nos permiten hacerlo, como [gitlab](gitlab.com), [bitbucket](bitbucket.org) o si se prefiere se puede tener un servidor propio para mejor manejo y control.
+
+Para aquellas personas que estan acosutmbradas a trabajar en servidores el uso de la consola no les resultara complicado, pero para aquellos que no, tambien hay herramientas visuales que nos permiten interactuar con git de una manera menos complicada como el GUI por defecto de git y que en algunos casos tambien se pueden conectar por medio de plugins en nuestro editor de texto preferido. Algunos de ellos serian:
+
+- [GitHubDesktop](https://desktop.github.com)
+- [TortoiseGit](https://tortoisegit.org)
+- [GitKraken](https://www.gitkraken.com)
