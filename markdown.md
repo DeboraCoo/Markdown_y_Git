@@ -48,3 +48,64 @@ Para aquellas personas que estan acosutmbradas a trabajar en servidores el uso d
 - [GitHubDesktop](https://desktop.github.com)
 - [TortoiseGit](https://tortoisegit.org)
 - [GitKraken](https://www.gitkraken.com)
+
+## Ejemplos
+
+Una vez creado repositorio, podemos clonarlo donde lo vayamos a trabajar
+~~~
+    git clone https://github.com/DeboraCoo/Markdown_y_Git.git markdown_git
+~~~
+
+
+Creamos el archivo que queremos enviar y lo agregamos al area de staging
+~~~
+	git add markdown.md
+~~~
+
+Hacemos nuestro commit con un mensaje inicial
+~~~
+	git commit -m "Creando archivo inicial"
+~~~
+
+Luego al ir modificando el archivo podemos ver cuales son los cambios 
+~~~
+	git status
+
+	On branch main
+	Your branch is up to date with 'origin/main'.
+
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git restore <file>..." to discard changes in working directory)
+			modified:   markdown.md
+
+	no changes added to commit (use "git add" and/or "git commit -a")
+~~~
+
+Si queremos ver cuales son los cambios, usamos el siguiente comando 
+
+~~~
+	git diff markdown.md
+~~~
+
+Luego de confirmar que todo se ve bien, entonces lo agregamos al area de staging para luego hacer commit
+
+~~~
+	git add markdown.md
+	git commit -m "Agregando contenido"
+~~~
+
+Y asi lo repetimos por cada cambio que queremos enviar hasta completar los commits necesarios y hacemos el envio hacia el origen.
+
+~~~
+	git push origin main
+
+	Enumerating objects: 5, done.
+	Counting objects: 100% (5/5), done.
+	Delta compression using up to 12 threads
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (3/3), 1.55 KiB | 1.55 MiB/s, done.
+	Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+	To https://github.com/DeboraCoo/Markdown_y_Git.git
+	   2f0e30f..7c69f0f  main -> main
+~~~
